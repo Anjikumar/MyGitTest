@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns="http://java.sun.com/xml/ns/jax-rpc/ri/config">
+    <service name="WeatherService"
+        	targetNamespace ="http://ysreddy.com/weather.wsdl"
+        	typeNamespace ="http://ysreddy.com/weather/types"
+        	packageName="com.mypro.services.binding">
+        	<interface name="com.my.services.IweatherInfo"
+        	    servantName="com.my.services.WeatherInfoImpl"/>  
+    </service>
+</configuration>
