@@ -7,7 +7,7 @@ public class WeatherCriteria implements Serializable{
 	private String city;
 	private String country;
 	
-	
+	private int test;
 	
 	
 	private String state;
